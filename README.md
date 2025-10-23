@@ -26,5 +26,5 @@ A demultiplexer (demux) takes one 2-bit input and will choose between 4 distinct
 If you only have 2 binary inputs, you can output between 4 disctinct choices.
 
 ### What other uses might these circuits have? (Think Shannon’s)
-If you need to take complex logic and build it into a circuit
+If you need to take complex logic and build it into a circuit, you can use the first bit of the logic as a selector, and the rest of the logic passes through the mux as normal. This allows us to pass through any boolean logic into a mux circuit.
 
